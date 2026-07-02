@@ -9,8 +9,8 @@ function draw(){
     ellipse(300,100,100,100);
     fill('yellow');
     noStroke();
-    ellipse(300,280,200,200);
+    ellipse(300,280,100,100);
     fill('green');
     noStroke();
-    ellipse(300,460,200,200);
+    ellipse(300,460,100,200);
 }
