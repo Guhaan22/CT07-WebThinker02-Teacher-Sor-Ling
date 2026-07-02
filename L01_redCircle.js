@@ -6,7 +6,7 @@ function setup(){
 function draw(){
     fill('red');
     noStroke();
-    ellipse(300,100,200,200);
+    ellipse(300,100,100,100);
     fill('yellow');
     noStroke();
     ellipse(300,280,200,200);
