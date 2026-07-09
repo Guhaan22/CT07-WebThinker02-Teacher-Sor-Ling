@@ -13,8 +13,8 @@ function setup() {
  ball.vel.y = 3;
   // End Basic shape testing
 square = new Sprite(350,500,100,10);
-square.color = "blue";
-rod = new Sprite(350,350,100,10)
+square.color = "b3lue";
+rod = new Sprite(50,350,100,10)
 rod.color = "black";
 rod = new Sprite(350,350,100,10)
 rod.color = "green";
