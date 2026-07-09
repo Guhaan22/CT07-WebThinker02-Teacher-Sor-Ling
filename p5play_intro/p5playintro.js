@@ -15,7 +15,7 @@ function setup() {
 square = new Sprite(350,500,100,10);
 square.color = "b3lue";
 rod = new Sprite(50,350,100,10)
-rod.color = "black";
+rod.color = "red";
 any = new Sprite(350,350,100,10)
 any.color = "green";
 bluey = new Sprite(350,350,100,10)
