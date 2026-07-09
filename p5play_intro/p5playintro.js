@@ -19,7 +19,7 @@ rod.color = "black";
 any = new Sprite(350,350,100,10)
 any.color = "green";
 bluey = new Sprite(350,350,100,10)
-rod.color = "black";
+bluey.color = "black";
    // Create a bouncing ball sprite
    // write your codes here
 
