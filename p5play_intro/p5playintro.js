@@ -21,4 +21,5 @@ square.color = "blue"
 
 function draw() {
   // write your codes here
+  background
 }
