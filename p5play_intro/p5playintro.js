@@ -21,7 +21,7 @@ any.color = "green";
 bluey = new Sprite(350,350,100,10)
 bluey.color = "black";
 greeny = new Sprite(350,350,100,10)
-greeny.color = "black";
+greeny.color = "cyan";
    // Create a bouncing ball sprite
    // write your codes here
 
