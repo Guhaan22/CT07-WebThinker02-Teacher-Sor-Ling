@@ -17,7 +17,8 @@ square.color = "blue";
 rod = new Sprite(350,350,100,10)
 rod.color = "black";
 rod = new Sprite(350,350,100,10)
-rod.color = "black";
+rod.color = "green";
+
    // Create a bouncing ball sprite
    // write your codes here
 
