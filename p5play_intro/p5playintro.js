@@ -24,5 +24,6 @@ function draw() {
   background(220)
 
   textSize(16)
-  text("Ball: " + ball.x + "," + ball.y,)
+  text("Ball: " + ball.x + "," + ball.y, 20,50)
+  
 }
