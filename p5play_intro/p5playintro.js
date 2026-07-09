@@ -14,7 +14,7 @@ function setup() {
   // End Basic shape testing
 square = new Sprite(350,500,100,10);
 square.color = "blue";
-rod (350, 3)
+rod (350, 350, 100, 10)
    // Create a bouncing ball sprite
    // write your codes here
 
