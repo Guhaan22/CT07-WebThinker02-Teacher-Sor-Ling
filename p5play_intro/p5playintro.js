@@ -12,8 +12,8 @@ function setup() {
  ball.color = "red"
  ball.vel.y = 3;
   // End Basic shape testing
-square = new Sprite(100,500,100.10)
-square.color = "blue"
+square = new Sprite(100,500,100,10);
+square.color = "blue";
    // Create a bouncing ball sprite
    // write your codes here
 
@@ -25,5 +25,8 @@ function draw() {
 
   textSize(16)
   text("Ball: " + ball.x + "," + ball.y, 20,50)
-  
+
+  if(ball.y > 600 || ball.y < 0) {
+    ball.vel.y = -1 * ball.vel.y;
+  }
 }
