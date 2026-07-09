@@ -10,6 +10,7 @@ function setup() {
  ball.y = 50;
  ball.diameter = 35;
  ball.color = "red"
+ ball.vey
   // End Basic shape testing
 square = new Sprite(100,500,100.10)
 square.color = "blue"
