@@ -5,7 +5,8 @@ function setup() {
 
   // Basic shape testing
   // write your codes here
- noStroke()
+ noStroke();
+ 
   // End Basic shape testing
 
    // Create a bouncing ball sprite
