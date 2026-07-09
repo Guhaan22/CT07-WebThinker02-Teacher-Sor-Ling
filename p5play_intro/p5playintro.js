@@ -8,7 +8,8 @@ function setup() {
  noStroke();
  ball = new Sprite();
  ball.y - 50;
- 
+ ball.diameter = 35;
+ ball.color
   // End Basic shape testing
 
    // Create a bouncing ball sprite
