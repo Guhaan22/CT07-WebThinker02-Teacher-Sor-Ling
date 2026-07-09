@@ -7,6 +7,8 @@ function setup() {
   // write your codes here
  noStroke();
  ball = new Sprite();
+ ball.y - 50;
+ 
   // End Basic shape testing
 
    // Create a bouncing ball sprite
