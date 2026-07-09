@@ -12,6 +12,7 @@ function setup() {
  ball.color = "red"
   // End Basic shape testing
 square = new Sprite(100,500,100.10)
+
    // Create a bouncing ball sprite
    // write your codes here
 
