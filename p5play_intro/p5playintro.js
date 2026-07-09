@@ -11,7 +11,7 @@ function setup() {
  ball.diameter = 35;
  ball.color = "red"
   // End Basic shape testing
-
+square = new SPRITE()
    // Create a bouncing ball sprite
    // write your codes here
 
