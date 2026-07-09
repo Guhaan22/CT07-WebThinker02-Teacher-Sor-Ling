@@ -7,7 +7,7 @@ function setup() {
   // write your codes here
  noStroke();
  ball = new Sprite();
- ball.y - 50;
+ ball.y = 50;
  ball.diameter = 35;
  ball.color = "red"
   // End Basic shape testing
