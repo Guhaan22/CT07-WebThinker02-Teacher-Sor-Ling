@@ -29,4 +29,5 @@ function draw() {
   if(ball.y > 600 || ball.y < 0) {
     ball.vel.y = -1 * ball.vel.y;
   }
+  
 }
