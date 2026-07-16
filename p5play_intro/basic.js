@@ -24,7 +24,8 @@ for (let i = 2; i <= 20; i+=2) {
   // --- Exercise: Age category classification ---
   // write your codes here
   let myAge = 11;
-  // infant
+  // infant:0 - 2
+  // too
   text("the sum is"+ total, 50, 200);
 
   // --- Exercise: Display odd numbers backward using while loop ---
