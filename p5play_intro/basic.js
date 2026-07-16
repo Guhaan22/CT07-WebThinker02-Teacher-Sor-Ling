@@ -6,7 +6,7 @@ function setup() {
   let base = 100
   let height = 200
   let areatriangle = base * height * 0.5
-  console.log("")
+  console.log("the area of the triangle is", )
 
 
 
