@@ -26,7 +26,7 @@ for (let i = 2; i <= 20; i+=2) {
   let myAge = 11;
   // infant:0 - 2
   // toddler 3-4
-  // child 
+  // child 5 - 12
   text("the sum is"+ total, 50, 200);
 
   // --- Exercise: Display odd numbers backward using while loop ---
