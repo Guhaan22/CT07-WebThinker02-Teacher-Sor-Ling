@@ -35,7 +35,10 @@ for (let i = 2; i <= 20; i+=2) {
 else if (myAge < 5) {
   console.log("I am a toddler")
 }
+else if (myAge < 13) {
+  console.log("I am a toddler")
   text("the sum is"+ total, 50, 200);
+}
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
