@@ -30,7 +30,7 @@ for (let i = 2; i <= 20; i+=2) {
   // teen 13 - 18
   // adult above 19
   if (myAge >0 && myAge < 2){
-    console.log("I am aan infant")
+    console.log("I am an infant")
 }
 else if (myAge < 5) {
   console.log("I am a toddler")
