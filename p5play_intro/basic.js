@@ -3,7 +3,7 @@ function setup() {
 
   // --- Exercise: Area of Triangle ---
   // write your codes here
-  
+
 
 
   // --- Exercise: Sum of first 10 even numbers ---
@@ -19,3 +19,5 @@ function setup() {
   // write your codes here
 }
 
+
+//draw function
