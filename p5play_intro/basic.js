@@ -3,6 +3,7 @@ function setup() {
 
   // --- Exercise: Area of Triangle ---
   // write your codes here
+  
 
 
 
@@ -22,5 +23,5 @@ function setup() {
 
 //draw function
 function draw() {
-  
+
 }
