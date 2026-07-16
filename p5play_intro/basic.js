@@ -16,8 +16,8 @@ let total = 0;
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 for (let i = 2; i <= 20; i+=2) {
-  console.log("Counting..." + i)
-  total = total + i
+  console.log("Counting..." + i);
+  total = total + i;
 }
 
 
