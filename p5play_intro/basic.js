@@ -33,7 +33,7 @@ for (let i = 2; i <= 20; i+=2) {
     console.log("I am aan infant")
 }
 else if (myAge < 5) {
-  
+  console.log("I am a toddler")
 }
   text("the sum is"+ total, 50, 200);
 
