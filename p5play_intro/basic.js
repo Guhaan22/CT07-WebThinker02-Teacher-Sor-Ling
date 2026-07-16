@@ -1,5 +1,5 @@
 function setup() {
-  
+
   // write your codes here
 
   // --- Exercise: Area of Triangle ---
@@ -30,7 +30,4 @@ function setup() {
 //draw function
 function draw() {
 
-}
-for (let i = 1; i <= 10; i++) {
-  console.log("counting from 1 to 10" + i)
 }
