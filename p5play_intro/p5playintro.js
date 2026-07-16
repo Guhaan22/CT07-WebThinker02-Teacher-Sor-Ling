@@ -32,7 +32,7 @@ function draw() {
   background(220)
 
   textSize(16)
-  text("Ball: " + round(ball.x) + "," + round(ball.y), 20,50
+  text("Ball: " + round(ball.x) + "," + round(ball.y), 20,50)
 
   if(ball.y > 600 || ball.y < 0) {
     ball.vel.y = -1 * ball.vel.y;
