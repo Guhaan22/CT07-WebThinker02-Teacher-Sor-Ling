@@ -31,6 +31,7 @@ function draw() {
   // write your codes here
   background(220)
   ellipse(200,300,50,50)
+  
   textSize(16)
   text("Ball: " + round(ball.x) + "," + round(ball.y), 20,50)
 
