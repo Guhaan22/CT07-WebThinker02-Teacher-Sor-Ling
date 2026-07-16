@@ -8,8 +8,8 @@ function setup() {
   let areatriangle = base * height * 0.5
   console.log("the area of the triangle is", areatriangle)
 
-  textSize(16)
-  text("the area of the triangle is", areatriangle)
+  textSize(16);
+  text("the area of the triangle is", areatriangle, 50, 100)
 
 
   // --- Exercise: Sum of first 10 even numbers ---
