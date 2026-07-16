@@ -8,6 +8,7 @@ function setup() {
   let areatriangle = base * height * 0.5
   console.log("the area of the triangle is", areatriangle)
 
+  text
 
 
   // --- Exercise: Sum of first 10 even numbers ---
