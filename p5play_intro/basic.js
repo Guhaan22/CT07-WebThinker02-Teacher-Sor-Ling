@@ -5,6 +5,7 @@ function setup() {
   // write your codes here
   
 
+
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
