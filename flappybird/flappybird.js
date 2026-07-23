@@ -4,7 +4,7 @@ let flapMidImg, hg, base;
 
 function preload(){
     //bird image, background, and the floor
-    flapMidIMg = Loa
+    flapMidIMg = loadimage("asse")
 }
 function setup(){
 createCanvas(600, 400);
