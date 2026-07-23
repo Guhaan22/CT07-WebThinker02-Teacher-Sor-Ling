@@ -5,4 +5,5 @@ createCanvas(600, 400);
 }
 function draw(){ 
     new Canvas(400, 600)
+    background("white")
 }
