@@ -1,4 +1,5 @@
 // the final game
+let bird;
 function setup(){
 createCanvas(600, 400);
  background("white")
