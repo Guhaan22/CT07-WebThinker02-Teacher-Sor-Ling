@@ -42,15 +42,13 @@ else if (myAge < 13) {
 else if (myAge < 19) {
   console.log("I am a teen")
 }
+else if (myAge >= 19) {
+  console.log("I am a adult")
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
-
-
-//draw function
-function draw() {
 
 }
