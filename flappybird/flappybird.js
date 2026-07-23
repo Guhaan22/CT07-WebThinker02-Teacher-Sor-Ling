@@ -3,7 +3,8 @@ let bird; floor;
 let flapMidImg, hg, base;
 
 function preload(){
-    //bird image, background
+    //bird image, background, and the floor
+    flapMidIMg = Loa
 }
 function setup(){
 createCanvas(600, 400);
