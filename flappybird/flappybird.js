@@ -2,6 +2,7 @@
 let bird; floor;
 let flapMidImg, hg, base;
 
+function preload()
 function setup(){
 createCanvas(600, 400);
  background("white")
