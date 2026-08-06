@@ -98,7 +98,7 @@ floor.x = bird.x;
 
 // check for colision
 if (bird.colides(floor) || bird.colides(pipeGroup)) {
-    no
+    noLoop();
 }
 }
 
