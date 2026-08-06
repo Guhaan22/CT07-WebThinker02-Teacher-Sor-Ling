@@ -99,7 +99,7 @@ floor.x = bird.x;
 // top pipe and bottom pipe
 function spawnPipePair() {
     let gap = random(50, 120)
-    let midY = 
+    let midY = random(250,400)
 
     let someY = midY + gap/2 + 200;
 
