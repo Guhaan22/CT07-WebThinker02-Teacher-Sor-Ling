@@ -61,7 +61,7 @@ function draw() {
     text("pipeGroup. length =" + pipeGroup.length, 20, 100)
 
     if ( kb.presses("space") || mouse.presses()) {
-        bird.vel.y = -7;
+        bird.vel.y = -5;
         bird.sleeping = false; // wake up the bird
     }
     // just for fun
