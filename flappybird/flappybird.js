@@ -86,7 +86,7 @@ function draw() {
     }
 
     // for testing (only lesson 5)
-    if ( frameCount === 1 ) {
+    if ( frameCount%90 === 0 ) {
         spawnPipePair();
     }
 
