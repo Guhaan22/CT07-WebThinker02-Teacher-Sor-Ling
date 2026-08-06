@@ -91,7 +91,8 @@ function draw() {
 
 // camera scrooling
 bird.x = bird.x + 3;
-camera.x = bird.x
+camera.x = bird.x;
+floor.x = bird.x;
 }
 
 // top pipe and bottom pipe
