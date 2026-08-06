@@ -96,7 +96,10 @@ camera.x = bird.x;
 floor.x = bird.x;
 
 
-
+// check for colision
+if (bird.colides(floor) || bird.colides(pipeGroup)) {
+    no
+}
 }
 
 // top pipe and bottom pipe
