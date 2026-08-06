@@ -91,7 +91,7 @@ function draw() {
 
 // camera scrooling
 bird.x = bird.x + 3;
-CanvasCaptureMediaStreamTrack.x
+CanvasCaptureMediaStreamTrack.x = bird
 }
 
 // top pipe and bottom pipe
