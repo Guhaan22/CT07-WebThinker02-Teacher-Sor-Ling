@@ -73,7 +73,7 @@ function draw() {
     startScreenLabel.img = startScreenImg;
 
 if (!startGame) {
-    return
+    return; // statement wil
 }
 
     if ( kb.presses("space") || mouse.presses() ) {
