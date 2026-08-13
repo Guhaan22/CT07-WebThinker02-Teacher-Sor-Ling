@@ -12,6 +12,7 @@ function setup() {
     background("skyblue");
 
     bird = new Sprite();
+    bird.w =
     bird.img = flapMidImg;
 
     floor = new Sprite();
