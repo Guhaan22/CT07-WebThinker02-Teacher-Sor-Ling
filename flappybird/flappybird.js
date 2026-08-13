@@ -81,7 +81,8 @@ if (!startGame) {
         startGame = true;
         startScreenLabel.visible = false;
 
-        
+        //revert the bird
+        bird.visibe
     }
     // just for fun
     // if ( mouse.presses() ) {
