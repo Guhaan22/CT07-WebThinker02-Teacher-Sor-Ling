@@ -33,7 +33,7 @@ function setup() {
         fill("red");
         textSize(14);
         text("frameCount= " + frameCount,   50, 50)
-        text()
+        text("canvas width= ")
     }
     
 
