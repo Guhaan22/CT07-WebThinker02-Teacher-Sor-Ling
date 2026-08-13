@@ -26,5 +26,6 @@ function setup() {
     floor.img = base;
     floor.y = height = -25
 
-    world
+    world.gravity.y = 10;
+    
 }
