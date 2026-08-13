@@ -26,5 +26,5 @@ function setup() {
     floor.img = base;
     floor.y = height = -25
 
-    AudioWorkletNode.gravity.yy
+    world
 }
