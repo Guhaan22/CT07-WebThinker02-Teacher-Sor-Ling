@@ -9,4 +9,5 @@ base = loadImage("assets/base.png")
 }
 function setup() {
     newCanvas(400,600)
+    
 }
