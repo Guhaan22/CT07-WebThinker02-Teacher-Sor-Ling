@@ -1,6 +1,6 @@
 // write your codes here
 function preload() {
-flapMidI
+flapMidimg = loadImage("assets")
 
 }
 function setup() {
