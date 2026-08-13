@@ -83,7 +83,7 @@ if (!startGame) {
 
         //revert the bird
         bird.visible = true;
-        
+        bird.colider = "dynamic"
     }
     // just for fun
     // if ( mouse.presses() ) {
