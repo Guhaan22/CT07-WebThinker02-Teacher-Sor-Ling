@@ -14,8 +14,8 @@ function setup() {
     bird = new Sprite();
     bird.w = 25;
     bird.h = 25;
-    bird.img = flapMidImg
     bird.img = flapMidImg;
+    bird.bounciness
 
     floor = new Sprite();
     floor.img = base;
