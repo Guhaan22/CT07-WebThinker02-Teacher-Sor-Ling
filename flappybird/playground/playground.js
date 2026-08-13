@@ -29,7 +29,8 @@ function setup() {
     world.gravity.y = 10;
 
     function draw() {
-        background
+        background("skyblue");
+        fill
     }
     
 
