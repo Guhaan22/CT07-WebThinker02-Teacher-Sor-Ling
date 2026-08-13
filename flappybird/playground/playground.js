@@ -1,6 +1,6 @@
 // write your codes here
 function preload() {
-flapMidimg = loadImage("assets")
+flapMidimg = loadImage("assets/yellowbird-midflap")
 
 }
 function setup() {
