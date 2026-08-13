@@ -31,7 +31,8 @@ function setup() {
     function draw() {
         background("skyblue");
         fill("red");
-        
+        textSize(14);
+        text
     }
     
 
