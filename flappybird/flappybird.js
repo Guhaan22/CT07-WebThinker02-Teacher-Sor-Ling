@@ -79,7 +79,7 @@ if (!startGame) {
 
     if ( kb.presses("space") || mouse.presses() ) {
         startGame = true;
-        
+        startScreenLabel
     }
     // just for fun
     // if ( mouse.presses() ) {
