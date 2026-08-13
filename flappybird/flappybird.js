@@ -78,7 +78,7 @@ if (!startGame) {
 }
 
     if ( kb.presses("space") || mouse.presses() ) {
-        startgame 
+        startgame = true;
         bird.sleeping = false; // wake up the bird
     }
     // just for fun
