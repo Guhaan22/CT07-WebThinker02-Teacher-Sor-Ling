@@ -27,5 +27,8 @@ function setup() {
     floor.y = height = -25
 
     world.gravity.y = 10;
+
+    function draw() 
     
+
 }
