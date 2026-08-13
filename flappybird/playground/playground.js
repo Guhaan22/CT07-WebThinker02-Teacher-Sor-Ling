@@ -11,5 +11,6 @@ function setup() {
     newCanvas(400,600)
     background("skyblue");
 
-    bird = new Sprite()
+    bird = new Sprite();
+    bird.img = flap
 }
