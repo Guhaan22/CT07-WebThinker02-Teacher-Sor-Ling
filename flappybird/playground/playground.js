@@ -25,4 +25,6 @@ function setup() {
     floor.colider = "static"
     floor.img = base;
     floor.y = height = -25
+
+    AudioWorkletNode.gravity.yy
 }
