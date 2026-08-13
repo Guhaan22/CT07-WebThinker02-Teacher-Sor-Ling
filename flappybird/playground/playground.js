@@ -32,7 +32,7 @@ function setup() {
         background("skyblue");
         fill("red");
         textSize(14);
-        text("frameCount")
+        text("frameCount= " + frame)
     }
     
 
