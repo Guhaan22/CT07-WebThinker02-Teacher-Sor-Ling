@@ -28,7 +28,9 @@ function setup() {
 
     world.gravity.y = 10;
 
-    function draw() 
+    function draw() {
+        background
+    }
     
 
 }
