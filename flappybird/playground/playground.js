@@ -64,7 +64,7 @@ function draw() {
 
     score = constrain(score,0,99); // keep the variable within the digits
     drawScore();
-    CanvasCaptureMediaStreamTrack.x 
+    camera.x 
 }
 
 function drawScore() {
