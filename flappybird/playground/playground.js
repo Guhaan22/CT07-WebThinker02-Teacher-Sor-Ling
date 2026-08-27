@@ -89,5 +89,6 @@ function drawScore() {
 }
 
 function moveGroup() {
-    let count = scoreGroup
+    let count = scoreGroup.length;
+    let fullWidth 
 }
