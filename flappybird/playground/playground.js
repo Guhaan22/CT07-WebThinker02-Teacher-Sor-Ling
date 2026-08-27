@@ -90,5 +90,6 @@ function drawScore() {
 
 function moveGroup() {
     let count = scoreGroup.length;
-    let fullWidth 
+    let fullWidth = count * 25;
+    
 }
