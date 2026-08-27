@@ -97,6 +97,6 @@ function moveGroup() {
     let difference = centerScoreGroup = centerSingle;
 
     for(let one of ScoreGroup) {
-        
+        one.x = one.x
     }
 }
