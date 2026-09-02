@@ -7,5 +7,6 @@ function setup() {
     
     floor = new Sprite();
     floor.color = "blue"
-    floor.y = ""
+    floor.y = "355"
+    floor
 }
