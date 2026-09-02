@@ -92,7 +92,7 @@ function drawScore() {
         scoreGroup.add(s);
 
         scoreGroup. layer = 1000 // display front
-        scoreGroup.colider = 'non'
+        scoreGroup.colider = "none";
     }
 }
 
