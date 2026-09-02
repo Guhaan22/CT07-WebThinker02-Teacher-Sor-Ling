@@ -16,7 +16,7 @@ function draw() {
     background("lightgray"); // erase
 
      if (mouse.presses()) {
-        
+        let s = new Sprite
      }
 
 }
