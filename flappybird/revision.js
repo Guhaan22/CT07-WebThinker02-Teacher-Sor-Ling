@@ -13,6 +13,10 @@ function setup() {
 }
 
 function draw() {
-    background("lightgray"); 
+    background("lightgray"); // erase
+
+     if (mouse.presses()) {
+        
+     }
 
 }
