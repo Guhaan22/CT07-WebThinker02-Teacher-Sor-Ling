@@ -11,3 +11,7 @@ function setup() {
     floor.width = width;
     floor.colider = "static"
 }
+
+function draw() {
+    
+}
