@@ -9,5 +9,5 @@ function setup() {
     floor.color = "blue"
     floor.y = "355"
     floor.width = width;
-    
+    floor.colider = "static"
 }
