@@ -59,6 +59,7 @@ function draw() {
     }
     else if (kb.presses("3")){
         score = round(random(0, 999))
+        draw_score
     }
     
 
