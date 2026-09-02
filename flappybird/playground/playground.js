@@ -61,7 +61,8 @@ function draw() {
         score = round(random(0, 999))
         drawScore()
 
-        
+        // fake bird flying to the right
+        camera.x += 3
     }
     
 
