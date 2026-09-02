@@ -1,5 +1,6 @@
 let floor;
 
 function setup() {
-    new Canvas(60,4)
+    new Canvas(600,400)
+    
 }
