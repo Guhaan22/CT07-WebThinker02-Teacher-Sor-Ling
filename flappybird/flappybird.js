@@ -80,6 +80,7 @@ if (!startGame) {
     if ( kb.presses("space") || mouse.presses() ) {
         startGame = true;
         startScreenLabel.visible = false;
+        
 
         //revert the bird
         bird.visible = true;
