@@ -5,4 +5,6 @@ function setup() {
 
     world. gravity.y = 10;
     
+    floor = new Sprite();
+    
 }
