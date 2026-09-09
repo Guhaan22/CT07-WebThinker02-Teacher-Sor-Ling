@@ -24,7 +24,7 @@ function preload() {
     let mango = {
         whole: loadImage("assets/mangogreen1.png"),
         half1: loadImage("assets/mangogreen2.png"),
-        half2:loadImage("assets/tomato2.png"),
+        half2:loadImage("assets/mangogreen2.png"),
     }
     
     
