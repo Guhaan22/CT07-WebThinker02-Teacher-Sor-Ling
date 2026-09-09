@@ -22,7 +22,7 @@ function preload() {
         half2: loadImage("assets/watermelonhalf.png"),
     }
     let tomato = {
-        
+        whole: loadimage()
     }
     
     
