@@ -39,7 +39,7 @@ function setup() {
     world.gravity.y = 10;
     fruitGroup = new Group();
     fruitGroup.w = 50;
-    
+    fruitGroup.h = 50;
   
     fruitHalves = new Group(); // group for fruit halves
 }
