@@ -38,7 +38,8 @@ function setup() {
     new Canvas(800, 600);
     world.gravity.y = 10;
     fruitGroup = new Group();
-    fruit
+    fruitGroup.w = 50;
+    
   
     fruitHalves = new Group(); // group for fruit halves
 }
