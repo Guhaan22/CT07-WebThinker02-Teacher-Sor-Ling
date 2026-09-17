@@ -1,7 +1,8 @@
 //javascript effect
 
 let person = {};
-    eyecolor:
+    eyecolor: "black"
+    wallet:
 person.eyecolor = "black"
 person.wallet = 1000;
 person.race = "Chinese"
