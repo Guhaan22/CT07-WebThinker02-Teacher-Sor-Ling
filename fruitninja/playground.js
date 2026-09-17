@@ -2,7 +2,8 @@
 
 let person = {};
     eyecolor: "black"
-    wallet:
+    wallet: 10000,
+    race: "Indian",
 person.eyecolor = "black"
 person.wallet = 1000;
 person.race = "Chinese"
