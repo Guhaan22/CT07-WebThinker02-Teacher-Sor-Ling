@@ -1,0 +1,3 @@
+//javascript effect
+
+let person = {};
