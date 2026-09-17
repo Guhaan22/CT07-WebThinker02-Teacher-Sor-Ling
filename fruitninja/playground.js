@@ -2,4 +2,5 @@
 
 let person = {};
 person.eyecolor = "black"
-person.wallet = 1000
+person.wallet = 1000;
+person.race
