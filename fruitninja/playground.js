@@ -7,5 +7,6 @@ person.race = "Chinese"
 person.gender = "male"
 
 function setup() {
-    new canvas
+    new Canvas(250,250)
+    
 }
