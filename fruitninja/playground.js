@@ -7,7 +7,7 @@ person.race = "Chinese"
 person.gender = "male"
 person.height = 160;
 person.age = "13"
-person.citizenship
+person.citizenship = "singaporean"
 function setup() {
     new Canvas(250,250)
     background("cyan")
