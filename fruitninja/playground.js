@@ -8,5 +8,5 @@ person.gender = "male"
 
 function setup() {
     new Canvas(250,250)
-    
+    background("cyan")
 }
