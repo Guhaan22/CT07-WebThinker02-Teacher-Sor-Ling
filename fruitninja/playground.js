@@ -1,23 +1,33 @@
-//javascript effect
+// create 3 functions
+// 1. preload
+// 2. setup, canvas 800 by 600
+// 3. draw
+let dojoImg;
 
-let person = {};
-    eyecolor: "black"
-    wallet: 10000,
-    race: "Indian",
-person.eyecolor = "black"
-person.wallet = 1000;
-person.race = "Chinese"
-person.gender = "male"
-person.height = 160;
-person.age = "13"
-person.citizenship = "singaporean"
-function setup() {
-    new Canvas(250,250)
-    background("cyan")
-
-    print(person);
+function preload() {
+    dojoImg = loadImage("assets/dojobackground.png");
 }
-
+function setup() {
+    new Canvas(800,600);
+    background("orange");
+}
 function draw() {
+    // need the dojo image
+    clear();
+    image(dojoImg, 0,0, width, height);
 
+    drawStartScreen();
+}
+function drawStartScreen() {
+    fill(0, 150); // 2nd number transparency
+    rect(0,0, width, height);
+
+    fill("red");
+    textAlign(CENTER, CENTER);
+
+    textSize(64);
+    text("Fruit Ninja", width/2, height/2);
+
+    textSize(30);
+    text("Press SPACE or click to start", width/2, height/2+55);
 }
