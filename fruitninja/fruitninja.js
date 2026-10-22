@@ -1,18 +1,26 @@
-// write your codes here
-//javascript effect
-
 let bg;
 
-let fruitGroup;
-let fruitHalves;
-let fruitTypes;
+let fruitGroup; // spawnFruit
+let fruitHalves; // split into half
 
-let score;
-let missed;
+let fruitTypes; // array of different fruits
 
+let score = 0;
+let missed = 0;
+let timer = 60; // lesson 12
+
+let gameState = "start"; // "start" or "play"
+
+let slice_sfx;
+let bgMusic;
+
+let intervalObject;
 
 function preload() {
     bg = loadImage("assets/dojobackground.png");
+
+    slice_sfx = loadSound("assets/fruit-ninja-combo.mp3");
+    bgMusic = loadSound("assets/fruit-ninja-bgtrack.mp3");
 
     let peach = {
         whole: loadImage("assets/peachwhole.png"),
@@ -32,21 +40,46 @@ function preload() {
 
 function setup() {
     new Canvas(800,600);
-    background("brown");
 
     fruitGroup = new Group(); // for easy management of fruits
     fruitHalves = new Group();
     world.gravity.y = 10;
-    missed = 0;
 
-    score = 0;
+    score = 0; // week 13
+    missed = 0; // week 14
 }
 
 function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
-    displayHeader()
+    // drawGameOverScreen();
+    // return;
+
+    // listen only WHEN gameState = "start"
+    if (( kb.presses('space') || mouse.presses() ) && gameState === "start") {
+        // either space key press or mouse click
+        gameState = "play";
+        // bgMusic.loop(); // playing non-stop
+
+        score = 0;
+        missed = 0;
+        timer = 60;
+
+        // reset
+        fruitGroup.removeAll();
+        fruitHalves.removeAll();
+
+        // setTimeout() vs setInterval()
+        intervalObject = setInterval( updateTimeLeft, 1000 ); // 1000ms is 1 second;
+    }
+
+    if (gameState === "start") {
+        drawStartScreen();
+        return;
+    }
+    
+    displayHeader(); // call the function
 
     // when to spawnFruit
     if (frameCount%90 === 0) {
@@ -63,28 +96,74 @@ function draw() {
         tail.life = 25; // lifetime measured in frameCount for that dot
 
         sliceFruit();
+    }
 
-    }
-    for(let one of fruitGroup) {
+    // write a loop for fruitGroup
+    for (let one of fruitGroup) {
         // count the "missed" fruit
-        if (one.y > height + 50)
-            one.remove();
-        missed++
+        if (one.y > height + 50) {
+            one.remove(); // improve the performance
+            missed++;
+        }
     }
+}
+
+// for countdown timer
+function updateTimeLeft() {
+    timer--; // subtract by one each time
+    
+    if (timer < 0) {
+        clearInterval( intervalObject ); // performance cleanup
+        print("cleanup interval done");
+    }
+}
+
+function drawGameOverScreen() {
+    fill(0, 150); // 2nd number transparency
+    rect(0,0, width, height);
+
+    fill("red");
+    textAlign(CENTER, CENTER);
+
+    textSize(64);
+    text("Game Over", width/2, height/2);
+    fill("white");
+    textSize(24);
+    text("Score: " + score,          width/2, height/2+55);
+    text("Missed Fruits: " + missed, width/2, height/2+95);
+    text("Press SPACE to restart",   width/2, height/2+135);
+}
+
+function drawStartScreen() {
+    fill(0, 150); // 2nd number transparency
+    rect(0,0, width, height);
+
+    fill("white");
+    textAlign(CENTER, CENTER);
+
+    textSize(64);
+    text("Fruit Ninja", width/2, height/2);
+
+    textSize(30);
+    text("Press SPACE or click to start", width/2, height/2+55);
 }
 
 function displayHeader() {
     fill("white");
     textSize(30);
-    textAlign(LEFT,CENTER);
-    text("Score: " + score, 30, 30);
-    text("Missed: " + missed, 350, 50)
+
+    textAlign(LEFT, CENTER);
+    text("Missed: " + missed, 25, 30);
+
+    textAlign(CENTER, CENTER);
+    text("Score: " + score,   width/2, 30);
+
+    textAlign(RIGHT, CENTER);
+    text("Time: " + timer,   width-25, 30);
 }
 
 // function with parameters
 function splitFruit(xpos, ypos, fruitType) {
-
-    
     // spawn left half
     let left = new Sprite(xpos-10, ypos, 35);
     left.img = fruitType.half1;
@@ -120,6 +199,7 @@ function sliceFruit() {
 
         if (distance < hitRadius) {
             fruit.sliced = true; // i am slicing this one
+            slice_sfx.play(); // play sound effects
 
             const fx = fruit.x; // remember
             const fy = fruit.y; // remember
@@ -154,4 +234,3 @@ function spawnFruit() {
 
     fruitGroup.add(one);
 }
-
